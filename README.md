@@ -5,7 +5,7 @@
   <img src="./assets/workflow.png" style="width:100%;" alt="ReMindRAG Overall Workflow">
 </div>
 
-### ​​ReMindRAG (Retrieve and Memorize)​​ enhances RAG systems by leveraging LLM-guided knowledge graph traversal for efficient, fine-grained retrieval. 
+### ​ReMindRAG (Retrieve and Memorize)​​ enhances RAG systems by leveraging LLM-guided knowledge graph traversal for efficient, fine-grained retrieval.
 
 Unlike traditional methods, it resolves long dependencies and multi-hop reasoning while minimizing computational overhead. By memorizing traversal paths without additional training, ReMindRAG boosts accuracy and reduces retrieval costs for similar queries. Experiments show superior performance in complex tasks—especially multi-hop reasoning and long-range dependencies—with improved robustness, adaptability, and cost efficiency compared to existing approaches.
 
@@ -147,7 +147,7 @@ If you want to implement a different chunking strategy, please subclass the **Ch
 <details>
 <summary>Code & Steps</summary>
 
-**Step 1**: Download the LooGLE dataset and our modified dataset, then place them in `eval/database`.
+**Step 1**: Download the LooGLE dataset and our modified dataset, then place them in `eval/database`. （Our modified dataset is available for download at [here](https://drive.google.com/file/d/1gv7rfiuMEVNMABttp6SZLzSJR-sZNfU5/view?usp=sharing).）
 
 **Step 2**: Download the HuggingFace model [nomic-ai/nomic-embed-text-v2-moe](https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe) and place it in the `./model_cache` directory.
 
